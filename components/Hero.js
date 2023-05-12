@@ -8,7 +8,7 @@ const Hero = () => {
         <Row className="align-items-center">
           <Col lg={6}>
             <div className="pr-lg-5">
-              <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Evalubot</p>
+              {/* <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Evalubot</p> */}
               <h1 className="mb-4 font-weight-normal line-height-1_4">Want to learn more about your livestream?</h1>
               <a href="https://discord.gg/tVxbgWAQ" className="btn btn-success">
                 GET STARTED<span className="ml-2 right-icon">&#8594;</span>
