@@ -27,24 +27,34 @@ const Header = () => {
   }
 
   return (
-    <Navbar color="light" light container="md" expand="md" sticky={sticky ? "top" : ""}>
-      <NavbarBrand href="/">LOGO</NavbarBrand>
+    <Navbar color="light" light container="md" expand="md" style={{padding:'8px 60px 8px'}}>
+      <NavbarBrand href="/">
+        <img
+          alt="logo"
+          src="/images/evalubot-icon.svg"
+          style={{
+            height: 40,
+            width: 40
+          }}
+        />
+        Evalubot
+      </NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
-        <Nav className="ms-auto" navbar>
+        <Nav className="ml-auto" navbar>
           <Nav className="m-auto" navbar>
             <NavItem>
               <NavLink href="/">Home</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink href="#feature">Features</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#service">Services</NavLink>
-            </NavItem>
+            </NavItem> 
             <NavItem>
               <NavLink href="#about">About</NavLink>
-            </NavItem>
+            </NavItem>*/}
           </Nav>
         </Nav>
       </Collapse>

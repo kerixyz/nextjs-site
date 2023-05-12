@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <section className="footer section">
       <Container>
-        <Row>
+        {/* <Row>
           <Col lg={4}>
               <div className="mb-4">
                 <p className="text-muted mt-4 mb-2">email@email.com</p>
@@ -59,12 +59,12 @@ const Footer = () => {
               </Col>
             </Row>
           </Col>
-        </Row>
+        </Row> */}
 
         <Row className="mt-5">
           <Col md={12}>
             <div className="text-center text-muted">
-              <p className="mb-0 f-15">2020 © Name. Design by Name</p>
+              <p className="mb-0 f-15">2023 © UW Prosocial Computing Group | Keri Mallari</p>
             </div>
           </Col>
         </Row>
