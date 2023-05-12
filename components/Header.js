@@ -27,14 +27,15 @@ const Header = () => {
   }
 
   return (
-    <Navbar color="light" light container="md" expand="md" style={{padding:'8px 60px 8px'}}>
+    <Navbar color="light" light container="md" expand="md" style={{padding:'0% 5% 0%'}}>
       <NavbarBrand href="/">
         <img
           alt="logo"
           src="/images/evalubot-icon.svg"
           style={{
-            height: 40,
-            width: 40
+            height: 50,
+            width: 50,
+            padding: '0% 5% 0%'
           }}
         />
         Evalubot

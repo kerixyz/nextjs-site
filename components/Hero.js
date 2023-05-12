@@ -16,7 +16,7 @@ const Hero = () => {
               {/* <Button color="#007972">
                 GET STARTED<span className="ml-2 right-icon">&#8594;</span>
               </Button> */}
-              <br/>
+              <p></p>
               <p className="text-muted mb-4 pb-2">Click to join our pilot study on our Discord Server</p>
               
             </div>
