@@ -51,19 +51,19 @@ const FeatureBox = (props) => {
 const Feature = () => {
 
   const features = [
-    {id : 1, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
-    {id : 2, img : "./images/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
-    {id : 3, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 1, img : "./images/45.png", title : "Automated Questioning", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 2, img : "./images/Group Members.png", title : "Filtering & Synthesizing", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
+    {id : 3, img : "./images/45.png", title : "Feedback Report", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
   ];
 
   return (
-    <section className="section" id="feature">
+    <section className="section" style={{ backgroundColor: '#CFE9C2'}} id="feature">
       <Container>
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
-              <h3 className="font-weight-normal text-dark"><span className="text-warning">Features</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <h3 className="font-weight-normal text-dark">Meet your new friend, Evalubot ✨</h3>
+              <p className="text-muted">We'll help you get constructive feedback on your live streams</p>
             </div>
           </Col>
         </Row>

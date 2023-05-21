@@ -44,18 +44,19 @@ const Header = () => {
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>
           <Nav className="m-auto" navbar>
-            <NavItem>
-              <NavLink href="/">Home</NavLink>
-            </NavItem>
+            
             {/* <NavItem>
               <NavLink href="#feature">Features</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#service">Services</NavLink>
-            </NavItem> 
+            </NavItem> */}
             <NavItem>
-              <NavLink href="#about">About</NavLink>
-            </NavItem>*/}
+              <NavLink href="about">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Home</NavLink>
+            </NavItem>
           </Nav>
         </Nav>
       </Collapse>

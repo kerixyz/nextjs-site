@@ -14,11 +14,19 @@ const Service = () => {
   return (
     <section className="section" id="service">
       <Container>
+      <Row className="justify-content-center">
+          <Col lg={6} md={8}>
+            <div className="title text-center mb-5">
+              <h3 className="font-weight-normal text-dark">The Project</h3>
+              <p className="text-muted"></p>
+            </div>
+          </Col>
+        </Row>
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
-              <h3 className="font-weight-normal text-dark"><span className="text-warning">Services</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <h3 className="font-weight-normal text-dark">The Team</h3>
+              <p className="text-muted">Spring DRG 2023 Members</p>
             </div>
           </Col>
         </Row>
@@ -37,6 +45,7 @@ const Service = () => {
             )
           }
         </Row>
+        
       </Container>
     </section>
   );
