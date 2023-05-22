@@ -12,10 +12,10 @@ const Index = () => {
     <Layout pageTitle="Evalubot">
       <Header />
       {/* <Hero /> 
-      <Service />  */}
-      <Feature/>
-      {/* <About />
-      <GetStarted /> */}
+      <Service />  
+      <Feature/>*/}
+      <About />
+      <GetStarted />
       <Footer />
     </Layout>
   )

@@ -47,16 +47,16 @@ const Header = () => {
             
             {/* <NavItem>
               <NavLink href="#feature">Features</NavLink>
-            </NavItem>
+            </NavItem>*/}
             <NavItem>
-              <NavLink href="#service">Services</NavLink>
-            </NavItem> */}
+              <NavLink href="try">Try It Out</NavLink>
+            </NavItem> 
             <NavItem>
               <NavLink href="about">About</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink href="/">Home</NavLink>
-            </NavItem>
+            </NavItem> */}
           </Nav>
         </Nav>
       </Collapse>

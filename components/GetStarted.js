@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 const GetStarted = () => {
 
   return (
-    <section className="section" style={{ backgroundColor: '#CFE9C2'}} id="about">
+    <section className="section bg-light" id="about">
       <Container>
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
