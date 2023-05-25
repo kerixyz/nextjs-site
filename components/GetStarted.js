@@ -7,17 +7,30 @@ const GetStarted = () => {
   return (
     <section className="section bg-light" id="about">
       <Container>
-        <Row className="justify-content-center">
-          <Col lg={6} md={8}>
-            <div className="title text-center mb-5">
-              <h3 className="font-weight-normal text-dark">Click the button below to get started</h3>
-              {/* <p className="text-muted">We'll help you get constructive feedback on your live streams</p> */}   
-              <br/>
-              <a href="https://discord.gg/tVxbgWAQ" className="btn" style={{ backgroundColor: '#FF7C34'}}>
-                 JOIN DISCORD<span className="ml-2 right-icon">&#8594;</span>
-              </a>
+      <Row className="align-items-center">
+          <Col lg={6}>
+            <div className="mt-5 mt-lg-0">
+              <img src="/images/how_img.svg" alt="" className="img-fluid mx-auto d-block"/>
             </div>
           </Col>
+
+          <Col lg={6}>
+            <div className="pr-lg-5">
+              {/* <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Evalubot</p> */}
+              <h2 className="mb-4 font-weight-bolder line-height-1_4">Click the button below to get started</h2>
+
+              <p className="text-muted mb-4 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh praesent tristique magna sit amet. Adipiscing elit ut aliquam purus sit amet luctus.</p>
+
+              <a href="https://discord.gg/tVxbgWAQ" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
+                GET STARTED<span className="ml-2 right-icon">&#8594;</span>
+              </a>
+              {/* <Button color="#007972">
+                GET STARTED<span className="ml-2 right-icon">&#8594;</span>
+              </Button> */}
+              
+            </div>
+          </Col>
+          
         </Row>
       </Container>
     </section>
