@@ -19,9 +19,9 @@ const GetStarted = () => {
               {/* <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Evalubot</p> */}
               <h2 className="mb-4 font-weight-bolder line-height-1_4">Click the button below to get started</h2>
 
-              <p className="text-muted mb-4 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh praesent tristique magna sit amet. Adipiscing elit ut aliquam purus sit amet luctus.</p>
+              <p className="text-muted mb-4 pb-2"> Join the Evalubot server, and send a message in #interest-check or send a message to Kehree on Discord :) </p>
 
-              <a href="https://discord.gg/tVxbgWAQ" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
+              <a href="https://discord.gg/R6p8qVTGcg" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
                 GET STARTED<span className="ml-2 right-icon">&#8594;</span>
               </a>
               {/* <Button color="#007972">
