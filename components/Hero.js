@@ -17,7 +17,7 @@ const Hero = () => {
                 GET STARTED<span className="ml-2 right-icon">&#8594;</span>
               </Button> */}
               <p></p>
-              <p className="text-muted mb-4 pb-2">Sign up to learn more!</p>
+              <p className="text-muted mb-4 pb-2">Join our Discord Server and shoot a message in #interest-check or ping our project lead, Kehree!</p>
               
             </div>
           </Col>

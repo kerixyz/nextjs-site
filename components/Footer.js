@@ -64,7 +64,8 @@ const Footer = () => {
         <Row className="mt-5">
           <Col md={12}>
             <div className="text-center text-muted">
-              {/* <p className="text-muted mt-4 mb-2">Email: kerihcde@gmail.com</p> */}
+              <p className="mb-0 f-15">This is an ongoing research project from students at the University of Washington. </p>
+              <p className="mb-0 f-15">For any questions, comments, or concerns reach out to kerihcde@gmail.com</p>
               {/* <a href = "/team"><p className="mb-0 f-15">The Team</p></a> */}
               <p className="mb-0 f-15">2023 © UW Prosocial Computing Group</p>
             </div>
