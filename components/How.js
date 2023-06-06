@@ -21,17 +21,21 @@ const How = () => {
           </Col> */}
           <Col md={{ size:10, offset :1 }}>
             <Row>
-              <Col md={4}>
+              <Col md={3}>
                 <h5 className="text-dark font-weight-bolder f-20 mb-3">Step 1. </h5>
                 <p className="text-muted font-weight-dark">Invite the Evalubot into your community's Discord Server</p>
               </Col>
-              <Col md={4}>
+              <Col md={3}>
                 <h5 className="text-dark font-weight-bolder f-20 mb-3">Step 2. </h5>
-                <p className="text-muted font-weight-dark">Wait 3-5 days for Evalubot to solicit and synthesize feedback for you!</p>
+                <p className="text-muted font-weight-dark">Evalubot will solicit and synthesize feedback for you!</p>
               </Col>
-              <Col md={4}>
+              <Col md={3}>
                 <h5 className="text-dark font-weight-bolder f-20 mb-3">Step 3.</h5>
                 <p className="text-muted font-weight-dark">Receive a report with construcive feedback and actionable insights</p>
+              </Col>
+              <Col md={3}>
+                <h5 className="text-dark font-weight-bolder f-20 mb-3">Step 4.</h5>
+                <p className="text-muted font-weight-dark">Join a quick interview with the researchers to learn more about the system!</p>
               </Col>
             </Row>
           </Col>

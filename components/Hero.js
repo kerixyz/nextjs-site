@@ -10,14 +10,15 @@ const Hero = () => {
             <div className="pr-lg-5">
               {/* <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Evalubot</p> */}
               <h1 className="mb-4 font-weight-normal line-height-1_4">Want to learn more about your livestream?</h1>
-              <a href="https://discord.gg/R6p8qVTGcg" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
-                GET STARTED<span className="ml-2 right-icon">&#8594;</span>
-              </a>
               {/* <Button color="#007972">
                 GET STARTED<span className="ml-2 right-icon">&#8594;</span>
               </Button> */}
               <p></p>
-              <p className="text-muted mb-4 pb-2">Join our Discord Server and shoot a message in #interest-check or ping our project lead, Kehree!</p>
+              <p className="text-muted mb-4 pb-2">This is an ongoing project by researchers from the University of Washington. Read more below to join and get started</p>
+
+              <a href="https://discord.gg/R6p8qVTGcg" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
+                GET STARTED<span className="ml-2 right-icon">&#8594;</span>
+              </a>
               
             </div>
           </Col>
