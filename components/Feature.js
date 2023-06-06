@@ -80,7 +80,7 @@ import { Container, Row, Col, Card } from "reactstrap";
 
 const Service = () => {
   const services = [
-    { title : "Automated Survey", desc : "Evalubot will automatically collect responses from members of your server, so all you need to do is invite it to your server." },
+    { title : "Automated Feedback", desc : "Evalubot will automatically collect responses from members of your server, so all you need to do is invite it to your server." },
     { title : "Filter & Evaluation", desc : "Evalubot uses filters to provide quality assurance for responses, which it then synthesizes into high-level feedback topics." },
     { title : "Feedback Report", desc : "Receive a detailed report about the strengths and weaknesses of your content, presence, interactions, and marketing." }
   ]
