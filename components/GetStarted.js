@@ -21,7 +21,7 @@ const GetStarted = () => {
 
               <p className="text-muted mb-4 pb-2"> Join the Evalubot server, and send a message in #interest-check or send a message to Kehree on Discord :) </p>
 
-              <a href="https://discord.gg/R6p8qVTGcg" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
+              <a href="https://forms.gle/Qa9SepVsJdGjN2MM9" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
                 GET STARTED<span className="ml-2 right-icon">&#8594;</span>
               </a>
               {/* <Button color="#007972">
