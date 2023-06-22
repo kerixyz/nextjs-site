@@ -16,8 +16,8 @@ const Hero = () => {
               <p></p>
               <p className="text-muted mb-4 pb-2">This is an ongoing project by researchers from the University of Washington. Read more below to join and get started</p>
 
-              <a href="https://discord.gg/R6p8qVTGcg" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
-                GET STARTED<span className="ml-2 right-icon">&#8594;</span>
+              <a href="https://forms.gle/Qa9SepVsJdGjN2MM9" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
+                FILL OUT THE INTEREST CHECK<span className="ml-2 right-icon">&#8594;</span>
               </a>
               
             </div>
