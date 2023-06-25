@@ -19,7 +19,7 @@ const GetStarted = () => {
               {/* <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Evalubot</p> */}
               <h2 className="mb-4 font-weight-bolder line-height-1_4">Click the button below to get started</h2>
 
-              <p className="text-muted mb-4 pb-2"> Join the Evalubot server, and send a message in #interest-check or send a message to Kehree on Discord :) </p>
+              <p className="text-muted mb-4 pb-2"> Click below to sign up and Kehree will reach out to you for scheduling :) </p>
 
               <a href="https://forms.gle/Qa9SepVsJdGjN2MM9" className="btn" style={{backgroundColor:"#FF7C34", color:"#FFFCF8"}}>
                 GET STARTED<span className="ml-2 right-icon">&#8594;</span>
