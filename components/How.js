@@ -10,35 +10,17 @@ const How = () => {
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
-              <h3 className="font-weight-bolder text-dark">How does it work? </h3>
+              <h3 className="font-weight-bolder text-dark">What is this and How does it work? </h3>
               {/* <p className="text-muted">We'll help you get constructive feedback on your live streams</p> */}
             </div>
           </Col>
         </Row>
         <Row>
-          {/* <Col md={3}>
-            <h2 className="font-weight-dark line-height-1_6 text-dark mb-4">Features:</h2>
-          </Col> */}
-          <Col md={{ size:10, offset :1 }}>
-            <Row>
-              <Col md={3}>
-                <h5 className="text-dark font-weight-bolder f-20 mb-3">Step 1. </h5>
-                <p className="text-muted font-weight-dark">Invite the Evalubot into your community's Discord Server</p>
-              </Col>
-              <Col md={3}>
-                <h5 className="text-dark font-weight-bolder f-20 mb-3">Step 2. </h5>
-                <p className="text-muted font-weight-dark">Evalubot will solicit and synthesize feedback for you!</p>
-              </Col>
-              <Col md={3}>
-                <h5 className="text-dark font-weight-bolder f-20 mb-3">Step 3.</h5>
-                <p className="text-muted font-weight-dark">Receive a report with construcive feedback and actionable insights</p>
-              </Col>
-              <Col md={3}>
-                <h5 className="text-dark font-weight-bolder f-20 mb-3">Step 4.</h5>
-                <p className="text-muted font-weight-dark">Join a quick interview with the researchers to learn more about the system!</p>
-              </Col>
-            </Row>
-          </Col>
+          <Col lg={8} md={{size:8, offset:2}}>
+            <p>We built a tool called Evalubot to solicit constructive feedback and synthesize the results into actionable insights for you as a streamer!</p> 
+            <p>All you need to do is invite our chatbot to your server, and we will generate a feedback report for you as soon as we get the data! </p>
+            <p>We just ask to have a quick call with you to go over the results, and we'll compensate your time with gifted subscriptions to your channel</p>
+            </Col>
         </Row>
       </Container>
     </section>
